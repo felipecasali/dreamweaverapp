@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "siteName": "Dream Weaver",
+    "defaultDescription": "A private dream journal with AI interpretations. Write down last night's dream and read it through seven different lenses."
+  },
+  "nav": {
+    "journal": "Journal",
+    "blog": "Blog",
+    "about": "About",
+    "pricing": "Pricing",
+    "login": "Log in",
+    "signup": "Start your journal",
+    "account": "Account",
+    "logout": "Log out",
+    "language": "Language",
+    "menu": "Menu",
+    "skip": "Skip to content"
+  },
+  "footer": {
+    "tagline": "A private place to write down your dreams and understand them.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "copyright": "© {year} Dream Weaver"
+  },
+  "styles": {
+    "default": "Balanced",
+    "freud": "Freudian",
+    "jung": "Jungian",
+    "emotional": "Emotional",
+    "spiritual": "Spiritual",
+    "cultural": "Cultural symbols",
+    "science": "Sleep science",
+    "desc": {
+      "default": "Psychology, feeling and symbol, read together.",
+      "freud": "Wishes, displacement and what the day left behind.",
+      "jung": "Archetypes, the shadow and the self you are becoming.",
+      "emotional": "What the dream felt like, and why that matters now.",
+      "spiritual": "Symbolic and spiritual meaning, without predictions.",
+      "cultural": "What popular traditions say about your symbols.",
+      "science": "How REM sleep, memory and emotion shaped the dream."
+    }
+  },
+  "home": {
+    "metaTitle": "Dream Weaver — AI dream journal and interpretation",
+    "metaDescription": "Write down last night's dream, get an AI interpretation in seven styles, and keep a private journal of your dreams.",
+    "heroTitle": "What did you dream last night?",
+    "heroLead": "Write it down before it fades. Dream Weaver keeps it in a private journal and reads it with you.",
+    "placeholder": "I was walking through a house I didn't know, and every door opened onto the sea…",
+    "cta": "Interpret this dream",
+    "ctaNote": "You'll create a free account to keep it. The first {count} interpretations are free.",
+    "howTitle": "From a fading memory to a journal you can return to",
+    "steps": {
+      "write": { "title": "Write it as you remember it", "body": "Fragments are fine. Details you add later make the next reading richer." },
+      "lens": { "title": "Choose how to read it", "body": "Seven lenses, from Jungian archetypes to sleep science. Reread the same dream through another one at any time." },
+      "keep": { "title": "Keep and revisit", "body": "Every dream stays in one entry with all its readings, searchable and private to you." }
+    },
+    "stylesTitle": "Seven ways to read the same dream",
+    "privacyTitle": "Your dreams stay yours",
+    "privacyBody": "Entries are visible only to you. We don't use your dreams to train AI models unless you turn that on in your account, and you can export or delete everything whenever you want.",
+    "impactTitle": "Built from a personal story",
+    "impactBody": "Dream Weaver was created by Felipe Casali, whose father lives with Alzheimer's disease. Part of the project's revenue is committed to families and institutions caring for people with Alzheimer's.",
+    "impactLink": "Read the story",
+    "blogTitle": "From the blog",
+    "blogAll": "All articles"
+  },
+  "pricing": {
+    "metaTitle": "Pricing — Dream Weaver",
+    "metaDescription": "Start free with 3 dream interpretations. Supporters get unlimited interpretations for US$ 7 a month.",
+    "title": "Start free. Support it if it becomes part of your mornings.",
+    "free": {
+      "name": "Free",
+      "price": "US$ 0",
+      "items": ["{count} dream interpretations", "Private dream journal, no limit on entries", "All seven interpretation styles", "Export and delete your data any time"],
+      "cta": "Start your journal"
+    },
+    "supporter": {
+      "name": "Supporter",
+      "price": "US$ 7",
+      "per": "per month",
+      "items": ["Unlimited interpretations", "Reread any dream in every style", "Everything in Free"],
+      "cta": "Coming soon",
+      "soon": "Payments open after the relaunch. Create a free account now and you'll be able to upgrade from your account page."
+    },
+    "impactNote": "Part of subscription revenue is committed to Alzheimer's care. How it is allocated will be published on the About page."
+  },
+  "about": {
+    "metaTitle": "About — Dream Weaver",
+    "metaDescription": "Why Dream Weaver exists: a dream journal created by Felipe Casali, connected to the families who care for people with Alzheimer's.",
+    "title": "A dream journal with a reason behind it",
+    "p1": "Dream Weaver began with a family story. Felipe Casali's father was diagnosed with Alzheimer's disease at 65. Watching memory slip away, and seeing how heavy the emotional and financial load is for caregivers, changed what Felipe wanted to build.",
+    "p2": "During an MBA in Artificial Intelligence and Big Data at the University of São Paulo, he found in AI a way to connect technology with memory and reflection. Dream Weaver is the result: a place to record your inner stories, look at them from different angles, and keep them.",
+    "impactTitle": "Impact",
+    "impactBody": "Part of the subscription revenue is committed to families and institutions caring for people with Alzheimer's. Before any amount is announced, we will publish who receives it and how it is accounted for, here on this page.",
+    "resourcesTitle": "Where to find support today",
+    "contactTitle": "Partnerships and contact",
+    "contactBody": "Institutions interested in partnering can write to"
+  },
+  "blog": {
+    "metaTitle": "Blog — Dream Weaver",
+    "metaDescription": "Articles on how dreams work, how cultures read them, and how Alzheimer's changes the dreaming mind.",
+    "title": "Blog",
+    "lead": "Notes on sleep, dreams and memory.",
+    "published": "Published {date}",
+    "back": "All articles",
+    "sources": "Sources",
+    "ctaTitle": "Have a dream on your mind?",
+    "ctaBody": "Write it down and read it through seven different lenses.",
+    "ctaButton": "Start your journal"
+  },
+  "auth": {
+    "loginTitle": "Log in to your journal",
+    "signupTitle": "Start your dream journal",
+    "signupLead": "Free, with {count} interpretations included.",
+    "email": "Email",
+    "password": "Password",
+    "passwordHelp": "At least 8 characters.",
+    "loginCta": "Log in",
+    "signupCta": "Create account",
+    "toSignup": "No account yet?",
+    "toSignupLink": "Create one",
+    "toLogin": "Already have an account?",
+    "toLoginLink": "Log in",
+    "acceptTerms": "I accept the <terms>Terms</terms> and have read the <privacy>Privacy policy</privacy>.",
+    "checkEmail": "Check your inbox at {email} and confirm your address to continue.",
+    "draftKept": "Your dream is saved on this device and will be waiting in your journal.",
+    "errors": {
+      "invalid": "Email or password is incorrect.",
+      "terms": "Accept the Terms to create an account.",
+      "weak": "Use a password with at least 8 characters.",
+      "generic": "Something went wrong. Try again in a moment."
+    }
+  },
+  "journal": {
+    "metaTitle": "Your journal — Dream Weaver",
+    "title": "Your journal",
+    "newDream": "New dream",
+    "dreamLabel": "Your dream",
+    "placeholder": "Describe the dream with as much detail as you remember…",
+    "dateLabel": "Dreamed on",
+    "styleLabel": "Read it as",
+    "interpret": "Interpret",
+    "interpreting": "Interpreting…",
+    "reinterpret": "Read it another way",
+    "readings": "Readings",
+    "empty": "Your journal is empty. Write down the last dream you remember.",
+    "noResults": "No dreams match “{query}”.",
+    "search": "Search your dreams",
+    "quota": "{used} of {limit} free interpretations used",
+    "quotaReached": "You've used your free interpretations. Your dreams stay in the journal; supporter plans open soon.",
+    "delete": "Delete dream",
+    "deleteConfirm": "Delete this dream and all its readings? This can't be undone.",
+    "deleteYes": "Delete",
+    "cancel": "Cancel",
+    "helpful": "Was this reading helpful?",
+    "yes": "Yes",
+    "no": "No",
+    "thanks": "Thanks for the feedback.",
+    "moodTitle": "Mood of your recent dreams",
+    "mood": { "pleasant": "Pleasant", "neutral": "Neutral", "unsettling": "Unsettling" },
+    "errors": {
+      "short": "Write at least a sentence about the dream.",
+      "quota": "You've used your free interpretations.",
+      "generic": "The interpretation failed. Your dream was kept; try again."
+    }
+  },
+  "account": {
+    "metaTitle": "Account — Dream Weaver",
+    "title": "Account",
+    "email": "Email",
+    "plan": "Plan",
+    "planFree": "Free",
+    "planSupporter": "Supporter",
+    "profileTitle": "Profile",
+    "birthDate": "Birth date",
+    "birthHelp": "Optional. Lets interpretations consider your life stage.",
+    "language": "Language for interpretations",
+    "aiOptIn": "Allow my dreams, without my identity, to be used to improve the AI",
+    "aiOptInHelp": "Off by default. You can change this at any time.",
+    "save": "Save changes",
+    "saved": "Changes saved.",
+    "dataTitle": "Your data",
+    "export": "Export my data",
+    "exportHelp": "Downloads every dream, reading and profile field as a JSON file.",
+    "delete": "Delete my account",
+    "deleteHelp": "Permanently deletes your account, dreams and readings.",
+    "deleteConfirmLabel": "Type DELETE to confirm",
+    "deleteWord": "DELETE",
+    "deleteCta": "Delete account permanently"
+  },
+  "notFound": {
+    "title": "This page doesn't exist",
+    "body": "The link may be old. The journal and the blog are a good place to start.",
+    "home": "Go to the home page"
+  }
+}

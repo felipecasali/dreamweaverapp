@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dream Weaver
 
-## Getting Started
+Private dream journal with AI interpretations. Rebuild of dreamweaverapp.com on Next.js 16 + Supabase, deployed on Vercel.
 
-First, run the development server:
+## Stack
+
+- **Next.js 16** (App Router, `src/proxy.ts` instead of middleware). Cache Components is off for the MVP.
+- **next-intl**: English at `/`, Portuguese at `/pt`, Spanish at `/es`, with `hreflang` and a localized sitemap.
+- **Supabase** (`sa-east-1`, project `dreamweaver`): Auth (email + password), Postgres with RLS on every table.
+- **AI layer** in `src/lib/ai`: provider-agnostic. `AI_PROVIDER=stub` returns labelled demo readings until a model is chosen.
+
+## Data model
+
+| Table | Purpose |
+| --- | --- |
+| `profiles` | One per user: birth date, locale, AI-training opt-in (off by default), plan, terms acceptance. `plan` is not writable by users. |
+| `dreams` | One row per dream. Full-text search column `search`. |
+| `interpretations` | Every reading of a dream (style, text, model, feedback). Rereading a dream adds a row here instead of a new journal entry. |
+
+`delete_my_account()` lets a signed-in user erase their own account (cascades to all rows). The free quota (`FREE_INTERPRETATIONS`, default 3) is enforced in `src/app/api/interpret/route.ts`.
+
+## Local development
 
 ```bash
+cp .env.example .env.local   # fill in the publishable key
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Connecting a real AI model
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Add `src/lib/ai/<provider>.ts` implementing `DreamInterpreter`, using `buildSystemPrompt()` and parsing the JSON reply.
+2. Register it in `getInterpreter()` (`src/lib/ai/index.ts`).
+3. Set `AI_PROVIDER` and the provider's API key in Vercel (server-only env var).
+4. Name the provider in the Privacy policy (`src/content/legal.ts`).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Not in this MVP
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Payments (Stripe), Mind Safe, image generation, migration of users and dreams from the Firebase site. Legal texts in `src/content/legal.ts` are drafts pending legal review.

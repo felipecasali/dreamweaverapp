@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "siteName": "Dream Weaver",
+    "defaultDescription": "Um diário de sonhos privado com interpretações por IA. Anote o sonho desta noite e leia-o por sete perspectivas diferentes."
+  },
+  "nav": {
+    "journal": "Diário",
+    "blog": "Blog",
+    "about": "Sobre",
+    "pricing": "Planos",
+    "login": "Entrar",
+    "signup": "Começar meu diário",
+    "account": "Conta",
+    "logout": "Sair",
+    "language": "Idioma",
+    "menu": "Menu",
+    "skip": "Pular para o conteúdo"
+  },
+  "footer": {
+    "tagline": "Um lugar privado para anotar seus sonhos e entendê-los.",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "copyright": "© {year} Dream Weaver"
+  },
+  "styles": {
+    "default": "Equilibrada",
+    "freud": "Freudiana",
+    "jung": "Junguiana",
+    "emotional": "Emocional",
+    "spiritual": "Espiritual",
+    "cultural": "Símbolos populares",
+    "science": "Ciência do sono",
+    "desc": {
+      "default": "Psicologia, sentimento e símbolo, lidos juntos.",
+      "freud": "Desejos, deslocamentos e o que o dia deixou para trás.",
+      "jung": "Arquétipos, a sombra e quem você está se tornando.",
+      "emotional": "Como o sonho foi sentido e por que isso importa agora.",
+      "spiritual": "Sentido simbólico e espiritual, sem previsões.",
+      "cultural": "O que as tradições populares dizem dos seus símbolos.",
+      "science": "Como o sono REM, a memória e a emoção moldaram o sonho."
+    }
+  },
+  "home": {
+    "metaTitle": "Dream Weaver — diário e interpretação de sonhos com IA",
+    "metaDescription": "Anote o sonho desta noite, receba uma interpretação por IA em sete estilos e mantenha um diário privado dos seus sonhos.",
+    "heroTitle": "O que você sonhou esta noite?",
+    "heroLead": "Escreva antes que ele se apague. O Dream Weaver guarda o sonho num diário privado e lê com você.",
+    "placeholder": "Eu andava por uma casa que não conhecia, e todas as portas davam para o mar…",
+    "cta": "Interpretar este sonho",
+    "ctaNote": "Você cria uma conta gratuita para guardá-lo. As primeiras {count} interpretações são grátis.",
+    "howTitle": "De uma lembrança que some a um diário para voltar",
+    "steps": {
+      "write": { "title": "Escreva como lembrar", "body": "Fragmentos servem. Detalhes que você acrescentar depois deixam a próxima leitura mais rica." },
+      "lens": { "title": "Escolha como ler", "body": "Sete perspectivas, dos arquétipos de Jung à ciência do sono. Releia o mesmo sonho por outra quando quiser." },
+      "keep": { "title": "Guarde e volte", "body": "Cada sonho fica numa só entrada, com todas as leituras, pesquisável e visível só para você." }
+    },
+    "stylesTitle": "Sete maneiras de ler o mesmo sonho",
+    "privacyTitle": "Seus sonhos continuam seus",
+    "privacyBody": "As entradas são visíveis só para você. Não usamos seus sonhos para treinar modelos de IA, a menos que você ative isso na sua conta, e você pode exportar ou apagar tudo quando quiser.",
+    "impactTitle": "Nascido de uma história pessoal",
+    "impactBody": "O Dream Weaver foi criado por Felipe Casali, cujo pai convive com a doença de Alzheimer. Parte da receita do projeto está comprometida com famílias e instituições que cuidam de pessoas com Alzheimer.",
+    "impactLink": "Conheça a história",
+    "blogTitle": "Do blog",
+    "blogAll": "Todos os artigos"
+  },
+  "pricing": {
+    "metaTitle": "Planos — Dream Weaver",
+    "metaDescription": "Comece grátis com 3 interpretações de sonhos. Apoiadores têm interpretações ilimitadas por US$ 7 por mês.",
+    "title": "Comece grátis. Apoie se ele virar parte das suas manhãs.",
+    "free": {
+      "name": "Grátis",
+      "price": "US$ 0",
+      "items": ["{count} interpretações de sonhos", "Diário privado, sem limite de entradas", "Os sete estilos de interpretação", "Exporte e apague seus dados quando quiser"],
+      "cta": "Começar meu diário"
+    },
+    "supporter": {
+      "name": "Apoiador",
+      "price": "US$ 7",
+      "per": "por mês",
+      "items": ["Interpretações ilimitadas", "Releia qualquer sonho em todos os estilos", "Tudo do plano Grátis"],
+      "cta": "Em breve",
+      "soon": "Os pagamentos abrem depois do relançamento. Crie sua conta gratuita agora e faça o upgrade pela página da sua conta."
+    },
+    "impactNote": "Parte da receita das assinaturas está comprometida com o cuidado de pessoas com Alzheimer. A forma de destinação será publicada na página Sobre."
+  },
+  "about": {
+    "metaTitle": "Sobre — Dream Weaver",
+    "metaDescription": "Por que o Dream Weaver existe: um diário de sonhos criado por Felipe Casali, ligado às famílias que cuidam de pessoas com Alzheimer.",
+    "title": "Um diário de sonhos com um motivo por trás",
+    "p1": "O Dream Weaver começou com uma história de família. O pai de Felipe Casali recebeu o diagnóstico de Alzheimer aos 65 anos. Ver a memória se perder, e o peso emocional e financeiro que recai sobre quem cuida, mudou o que Felipe queria construir.",
+    "p2": "Durante um MBA em Inteligência Artificial e Big Data na USP, ele encontrou na IA uma forma de ligar tecnologia, memória e reflexão. O Dream Weaver é o resultado: um lugar para registrar suas histórias interiores, olhá-las por ângulos diferentes e guardá-las.",
+    "impactTitle": "Impacto",
+    "impactBody": "Parte da receita das assinaturas está comprometida com famílias e instituições que cuidam de pessoas com Alzheimer. Antes de anunciar qualquer valor, publicaremos aqui quem recebe e como a prestação de contas é feita.",
+    "resourcesTitle": "Onde encontrar apoio hoje",
+    "contactTitle": "Parcerias e contato",
+    "contactBody": "Instituições interessadas em parceria podem escrever para"
+  },
+  "blog": {
+    "metaTitle": "Blog — Dream Weaver",
+    "metaDescription": "Artigos sobre como os sonhos funcionam, como as culturas os interpretam e como o Alzheimer muda o sonhar.",
+    "title": "Blog",
+    "lead": "Notas sobre sono, sonhos e memória.",
+    "published": "Publicado em {date}",
+    "back": "Todos os artigos",
+    "sources": "Fontes",
+    "ctaTitle": "Tem um sonho na cabeça?",
+    "ctaBody": "Anote e leia por sete perspectivas diferentes.",
+    "ctaButton": "Começar meu diário"
+  },
+  "auth": {
+    "loginTitle": "Entre no seu diário",
+    "signupTitle": "Comece seu diário de sonhos",
+    "signupLead": "Grátis, com {count} interpretações incluídas.",
+    "email": "E-mail",
+    "password": "Senha",
+    "passwordHelp": "No mínimo 8 caracteres.",
+    "loginCta": "Entrar",
+    "signupCta": "Criar conta",
+    "toSignup": "Ainda não tem conta?",
+    "toSignupLink": "Crie uma",
+    "toLogin": "Já tem conta?",
+    "toLoginLink": "Entrar",
+    "acceptTerms": "Aceito os <terms>Termos</terms> e li a <privacy>Política de privacidade</privacy>.",
+    "checkEmail": "Confira sua caixa de entrada em {email} e confirme o endereço para continuar.",
+    "draftKept": "Seu sonho ficou salvo neste aparelho e vai estar esperando no seu diário.",
+    "errors": {
+      "invalid": "E-mail ou senha incorretos.",
+      "terms": "Aceite os Termos para criar a conta.",
+      "weak": "Use uma senha com pelo menos 8 caracteres.",
+      "generic": "Algo deu errado. Tente de novo em instantes."
+    }
+  },
+  "journal": {
+    "metaTitle": "Seu diário — Dream Weaver",
+    "title": "Seu diário",
+    "newDream": "Novo sonho",
+    "dreamLabel": "Seu sonho",
+    "placeholder": "Descreva o sonho com todos os detalhes de que se lembra…",
+    "dateLabel": "Sonhado em",
+    "styleLabel": "Ler como",
+    "interpret": "Interpretar",
+    "interpreting": "Interpretando…",
+    "reinterpret": "Ler de outro jeito",
+    "readings": "Leituras",
+    "empty": "Seu diário está vazio. Anote o último sonho de que você se lembra.",
+    "noResults": "Nenhum sonho corresponde a “{query}”.",
+    "search": "Pesquisar seus sonhos",
+    "quota": "{used} de {limit} interpretações grátis usadas",
+    "quotaReached": "Você usou suas interpretações grátis. Seus sonhos continuam no diário; os planos de apoiador abrem em breve.",
+    "delete": "Apagar sonho",
+    "deleteConfirm": "Apagar este sonho e todas as leituras? Não dá para desfazer.",
+    "deleteYes": "Apagar",
+    "cancel": "Cancelar",
+    "helpful": "Esta leitura ajudou?",
+    "yes": "Sim",
+    "no": "Não",
+    "thanks": "Obrigado pelo retorno.",
+    "moodTitle": "Clima dos seus sonhos recentes",
+    "mood": { "pleasant": "Agradável", "neutral": "Neutro", "unsettling": "Inquietante" },
+    "errors": {
+      "short": "Escreva pelo menos uma frase sobre o sonho.",
+      "quota": "Você usou suas interpretações grátis.",
+      "generic": "A interpretação falhou. Seu sonho foi guardado; tente de novo."
+    }
+  },
+  "account": {
+    "metaTitle": "Conta — Dream Weaver",
+    "title": "Conta",
+    "email": "E-mail",
+    "plan": "Plano",
+    "planFree": "Grátis",
+    "planSupporter": "Apoiador",
+    "profileTitle": "Perfil",
+    "birthDate": "Data de nascimento",
+    "birthHelp": "Opcional. Permite que as interpretações considerem sua fase de vida.",
+    "language": "Idioma das interpretações",
+    "aiOptIn": "Permitir que meus sonhos, sem minha identidade, sejam usados para melhorar a IA",
+    "aiOptInHelp": "Desligado por padrão. Você pode mudar quando quiser.",
+    "save": "Salvar alterações",
+    "saved": "Alterações salvas.",
+    "dataTitle": "Seus dados",
+    "export": "Exportar meus dados",
+    "exportHelp": "Baixa todos os sonhos, leituras e dados do perfil em um arquivo JSON.",
+    "delete": "Excluir minha conta",
+    "deleteHelp": "Exclui de forma permanente sua conta, sonhos e leituras.",
+    "deleteConfirmLabel": "Digite EXCLUIR para confirmar",
+    "deleteWord": "EXCLUIR",
+    "deleteCta": "Excluir conta permanentemente"
+  },
+  "notFound": {
+    "title": "Esta página não existe",
+    "body": "O link pode ser antigo. O diário e o blog são bons lugares para começar.",
+    "home": "Ir para a página inicial"
+  }
+}
