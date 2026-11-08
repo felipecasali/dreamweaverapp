@@ -50,9 +50,18 @@
     "ctaNote": "You'll create a free account to keep it. The first {count} interpretations are free.",
     "howTitle": "From a fading memory to a journal you can return to",
     "steps": {
-      "write": { "title": "Write it as you remember it", "body": "Fragments are fine. Details you add later make the next reading richer." },
-      "lens": { "title": "Choose how to read it", "body": "Seven lenses, from Jungian archetypes to sleep science. Reread the same dream through another one at any time." },
-      "keep": { "title": "Keep and revisit", "body": "Every dream stays in one entry with all its readings, searchable and private to you." }
+      "write": {
+        "title": "Write it as you remember it",
+        "body": "Fragments are fine. Details you add later make the next reading richer."
+      },
+      "lens": {
+        "title": "Choose how to read it",
+        "body": "Seven lenses, from Jungian archetypes to sleep science. Reread the same dream through another one at any time."
+      },
+      "keep": {
+        "title": "Keep and revisit",
+        "body": "Every dream stays in one entry with all its readings, searchable and private to you."
+      }
     },
     "stylesTitle": "Seven ways to read the same dream",
     "privacyTitle": "Your dreams stay yours",
@@ -70,14 +79,23 @@
     "free": {
       "name": "Free",
       "price": "US$ 0",
-      "items": ["{count} dream interpretations", "Private dream journal, no limit on entries", "All seven interpretation styles", "Export and delete your data any time"],
+      "items": [
+        "{count} dream interpretations",
+        "Private dream journal, no limit on entries",
+        "All seven interpretation styles",
+        "Export and delete your data any time"
+      ],
       "cta": "Start your journal"
     },
     "supporter": {
       "name": "Supporter",
       "price": "US$ 7",
       "per": "per month",
-      "items": ["Unlimited interpretations", "Reread any dream in every style", "Everything in Free"],
+      "items": [
+        "Unlimited interpretations",
+        "Reread any dream in every style",
+        "Everything in Free"
+      ],
       "cta": "Coming soon",
       "soon": "Payments open after the relaunch. Create a free account now and you'll be able to upgrade from your account page."
     },
@@ -128,6 +146,19 @@
       "terms": "Accept the Terms to create an account.",
       "weak": "Use a password with at least 8 characters.",
       "generic": "Something went wrong. Try again in a moment."
+    },
+    "forgotLink": "Forgot your password?",
+    "forgotTitle": "Reset your password",
+    "forgotLead": "Enter the email you signed up with. We'll send a link to choose a new password.",
+    "forgotCta": "Send reset link",
+    "forgotSent": "If an account exists for {email}, a reset link is on its way. Open it in this browser.",
+    "resetTitle": "Choose a new password",
+    "newPassword": "New password",
+    "resetCta": "Save new password",
+    "status": {
+      "confirmed": "Your email is confirmed. Log in with your password.",
+      "link-expired": "That link has expired or was already used. Log in, or request a new link below.",
+      "reset-done": "Password changed. You're logged in."
     }
   },
   "journal": {
@@ -156,7 +187,11 @@
     "no": "No",
     "thanks": "Thanks for the feedback.",
     "moodTitle": "Mood of your recent dreams",
-    "mood": { "pleasant": "Pleasant", "neutral": "Neutral", "unsettling": "Unsettling" },
+    "mood": {
+      "pleasant": "Pleasant",
+      "neutral": "Neutral",
+      "unsettling": "Unsettling"
+    },
     "errors": {
       "short": "Write at least a sentence about the dream.",
       "quota": "You've used your free interpretations.",

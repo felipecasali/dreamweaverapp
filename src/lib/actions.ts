@@ -57,6 +57,33 @@ export async function signup(_: FormState, formData: FormData): Promise<FormStat
   redirect({ href: "/journal", locale });
 }
 
+export async function requestPasswordReset(_: FormState, formData: FormData): Promise<FormState> {
+  const email = z.string().trim().email().safeParse(formData.get("email"));
+  if (!email.success) return { error: "invalid" };
+
+  const locale = (await getLocale()) as Locale;
+  const prefix = locale === "en" ? "" : `/${locale}`;
+  const supabase = await createClient();
+  const { error } = await supabase.auth.resetPasswordForEmail(email.data, {
+    redirectTo: `${env.siteUrl}/auth/confirm?next=${prefix}/reset-password`,
+  });
+  if (error && error.status === 429) return { error: "generic" };
+  // Same answer whether or not the account exists (no account enumeration)
+  return { ok: true, email: email.data };
+}
+
+export async function updatePassword(_: FormState, formData: FormData): Promise<FormState> {
+  const password = z.string().min(8).safeParse(formData.get("password"));
+  if (!password.success) return { error: "weak" };
+
+  const supabase = await createClient();
+  const { error } = await supabase.auth.updateUser({ password: password.data });
+  if (error) return { error: error.code === "same_password" ? "weak" : "generic" };
+
+  const locale = (await getLocale()) as Locale;
+  redirect({ href: "/journal", locale });
+}
+
 export async function logout() {
   const supabase = await createClient();
   await supabase.auth.signOut();

@@ -15,11 +15,17 @@ export default async function Login({ params, searchParams }: PageProps<"/[local
   const locale = (await params).locale as Locale;
   setRequestLocale(locale);
   const t = await getTranslations("auth");
-  const { next } = await searchParams;
+  const { next, status } = await searchParams;
+  const notice = status === "confirmed" || status === "link-expired" ? status : null;
 
   return (
     <Container className="max-w-md pt-16">
       <h1 className="text-3xl font-medium">{t("loginTitle")}</h1>
+      {notice && (
+        <p role="status" className="mt-6 rounded-xl bg-dawn/60 p-4 font-sans text-sm">
+          {t(`status.${notice}`)}
+        </p>
+      )}
       <div className="mt-8">
         <AuthForm mode="login" next={typeof next === "string" ? next : undefined} />
       </div>

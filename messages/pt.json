@@ -50,9 +50,18 @@
     "ctaNote": "Você cria uma conta gratuita para guardá-lo. As primeiras {count} interpretações são grátis.",
     "howTitle": "De uma lembrança que some a um diário para voltar",
     "steps": {
-      "write": { "title": "Escreva como lembrar", "body": "Fragmentos servem. Detalhes que você acrescentar depois deixam a próxima leitura mais rica." },
-      "lens": { "title": "Escolha como ler", "body": "Sete perspectivas, dos arquétipos de Jung à ciência do sono. Releia o mesmo sonho por outra quando quiser." },
-      "keep": { "title": "Guarde e volte", "body": "Cada sonho fica numa só entrada, com todas as leituras, pesquisável e visível só para você." }
+      "write": {
+        "title": "Escreva como lembrar",
+        "body": "Fragmentos servem. Detalhes que você acrescentar depois deixam a próxima leitura mais rica."
+      },
+      "lens": {
+        "title": "Escolha como ler",
+        "body": "Sete perspectivas, dos arquétipos de Jung à ciência do sono. Releia o mesmo sonho por outra quando quiser."
+      },
+      "keep": {
+        "title": "Guarde e volte",
+        "body": "Cada sonho fica numa só entrada, com todas as leituras, pesquisável e visível só para você."
+      }
     },
     "stylesTitle": "Sete maneiras de ler o mesmo sonho",
     "privacyTitle": "Seus sonhos continuam seus",
@@ -70,14 +79,23 @@
     "free": {
       "name": "Grátis",
       "price": "US$ 0",
-      "items": ["{count} interpretações de sonhos", "Diário privado, sem limite de entradas", "Os sete estilos de interpretação", "Exporte e apague seus dados quando quiser"],
+      "items": [
+        "{count} interpretações de sonhos",
+        "Diário privado, sem limite de entradas",
+        "Os sete estilos de interpretação",
+        "Exporte e apague seus dados quando quiser"
+      ],
       "cta": "Começar meu diário"
     },
     "supporter": {
       "name": "Apoiador",
       "price": "US$ 7",
       "per": "por mês",
-      "items": ["Interpretações ilimitadas", "Releia qualquer sonho em todos os estilos", "Tudo do plano Grátis"],
+      "items": [
+        "Interpretações ilimitadas",
+        "Releia qualquer sonho em todos os estilos",
+        "Tudo do plano Grátis"
+      ],
       "cta": "Em breve",
       "soon": "Os pagamentos abrem depois do relançamento. Crie sua conta gratuita agora e faça o upgrade pela página da sua conta."
     },
@@ -128,6 +146,19 @@
       "terms": "Aceite os Termos para criar a conta.",
       "weak": "Use uma senha com pelo menos 8 caracteres.",
       "generic": "Algo deu errado. Tente de novo em instantes."
+    },
+    "forgotLink": "Esqueceu a senha?",
+    "forgotTitle": "Redefinir senha",
+    "forgotLead": "Informe o e-mail do cadastro. Enviaremos um link para você escolher uma nova senha.",
+    "forgotCta": "Enviar link",
+    "forgotSent": "Se existir uma conta para {email}, o link já está a caminho. Abra-o neste navegador.",
+    "resetTitle": "Escolha uma nova senha",
+    "newPassword": "Nova senha",
+    "resetCta": "Salvar nova senha",
+    "status": {
+      "confirmed": "Seu e-mail está confirmado. Entre com sua senha.",
+      "link-expired": "Esse link expirou ou já foi usado. Entre, ou peça um novo link abaixo.",
+      "reset-done": "Senha alterada. Você já está conectado."
     }
   },
   "journal": {
@@ -156,7 +187,11 @@
     "no": "Não",
     "thanks": "Obrigado pelo retorno.",
     "moodTitle": "Clima dos seus sonhos recentes",
-    "mood": { "pleasant": "Agradável", "neutral": "Neutro", "unsettling": "Inquietante" },
+    "mood": {
+      "pleasant": "Agradável",
+      "neutral": "Neutro",
+      "unsettling": "Inquietante"
+    },
     "errors": {
       "short": "Escreva pelo menos uma frase sobre o sonho.",
       "quota": "Você usou suas interpretações grátis.",

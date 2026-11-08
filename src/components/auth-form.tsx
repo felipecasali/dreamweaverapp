@@ -49,10 +49,14 @@ export function AuthForm({ mode, next }: { mode: "login" | "signup"; next?: stri
           aria-describedby={mode === "signup" ? "password-help" : undefined}
           className={fieldClass}
         />
-        {mode === "signup" && (
+        {mode === "signup" ? (
           <p id="password-help" className="mt-1.5 font-sans text-sm text-slate">
             {t("passwordHelp")}
           </p>
+        ) : (
+          <Link href="/forgot-password" className="mt-2 inline-block font-sans text-sm text-ultra underline underline-offset-2">
+            {t("forgotLink")}
+          </Link>
         )}
       </div>
 

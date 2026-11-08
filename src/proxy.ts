@@ -5,7 +5,7 @@ import { routing } from "@/i18n/routing";
 
 const intl = createIntlMiddleware(routing);
 
-const PROTECTED = /^\/(?:(?:pt|es)\/)?(?:journal|account)(?:\/|$)/;
+const PROTECTED = /^\/(?:(?:pt|es)\/)?(?:journal|account|reset-password)(?:\/|$)/;
 
 export async function proxy(request: NextRequest) {
   // 1. Locale routing (may redirect or rewrite)
